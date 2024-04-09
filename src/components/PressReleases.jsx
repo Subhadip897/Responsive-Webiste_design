@@ -5,7 +5,7 @@ export default function PressReleases() {
 
     return (
         <>
-            <section className="mx-0 mt-10 sm:mx-6 sm:mt-16">
+            <section className="mx-0 mt-10 sm:mx-6 sm:mt-32">
                 <div className="flex items-center justify-between flex-wrap gap-0 sm:justify-normal sm:gap-5">
                     <h2 className="text-xl font-[700] sm:text-3xl md:text-[38px]">Press Releases</h2>
                     <a href="#" className=" mt-2 border-b-black border-solid border-b-[1px] text-sm font-semibold sm:text-base md:text-[18px] ">View All</a>

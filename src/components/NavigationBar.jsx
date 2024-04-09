@@ -4,9 +4,8 @@ export default function NavigationBar() {
 
     return (
         <>
-            <div className="bg-gray-600 p-[.5px]"></div>
-            <nav>
-                <ul className="py-4 flex items-center gap-4 text-[12px] sm:text-lg md:text-xl">
+            <nav className="border-solid border-y-[1.5px] border-gray-400">
+                <ul className="py-7 flex items-center gap-4 text-[12px] sm:text-lg md:text-xl">
                     <li>
                         <a className="text-blue-600" href="#"><span>Press Room</span></a>
                     </li>
@@ -24,7 +23,6 @@ export default function NavigationBar() {
                     </li>
                 </ul>
             </nav>
-            <div className="bg-gray-600 p-[.7px]"></div>
         </>
     )
 }
